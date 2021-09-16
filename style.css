@@ -1,3 +1,43 @@
-   body {
-       font-family: 'Roboto';font-size: 22px;
+body {
+       font-family: 'Roboto';
+       font-size: 22px;
+       background: #fadcd9;
    }
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: hotpink;
+    text-transform: uppercase;
+}
+
+img {
+    border: solid #f5b105 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    list-style-type: circle;
+}
+
+.list {
+    background: #daf1f7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #2d3c87;
+}
+
+#list-heading {
+    text-transform: none;
+}
